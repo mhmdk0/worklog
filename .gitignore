@@ -1,0 +1,16 @@
+# Your data: time entries, reports, invoices and settings (personal, never committed)
+data/
+*.db
+# Generated PDFs, if you point "Save PDFs to" inside the repo
+reports/
+invoices/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

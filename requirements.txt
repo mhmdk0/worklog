@@ -1,0 +1,4 @@
+customtkinter>=5.2
+reportlab>=4.0
+# PyMuPDF 2.x pulls in onnxruntime and other large packages WorkLog doesn't use.
+pymupdf>=1.24.2,<2
