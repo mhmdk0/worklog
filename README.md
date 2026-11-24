@@ -125,6 +125,9 @@ Pasting several lines into a task list adds one task per line.
 
 ## Notes
 
+- **Text looks pixelated (Linux)?** The app is running on a Python whose Tk can't draw smooth fonts,
+  usually Anaconda's. `./setup.sh` picks the system Python when it can, so update and run it again:
+  `git pull && ./setup.sh`. If it still warns, install the system Tk first: `sudo apt install python3-tk python3-venv`.
 - On macOS the menu bar shows "Python" rather than "WorkLog": the app runs on the Python you installed and
   isn't a signed, bundled application.
 - Windows isn't packaged, but the app itself should run there:
